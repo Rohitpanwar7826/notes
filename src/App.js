@@ -14,7 +14,7 @@ function App() {
         <Routes >
           <Route exact path="/" element={<NodeList/>} />
           <Route exact path="about" element={<AboutPage/>} />
-          < PageNotFound />
+          <Route path="*" element={<PageNotFound/>} />
         </Routes>
         < Footer />
       </div>
