@@ -14,7 +14,7 @@ function App() {
         <Routes basename='/notes/'>
           <Route exact path="/" element={<NodeList/>} />
           <Route exact path="/about" element={<AboutPage/>} />
-          <Route path="*" element={<PageNotFound/>} />
+
         </Routes>
         < Footer />
       </div>
