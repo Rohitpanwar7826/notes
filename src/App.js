@@ -7,6 +7,7 @@ import AboutPage from './componets/About/AboutPage';
 import PageNotFound from './componets/PageNotFound/PageNotFound';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
+  alert("jello")
   return (
     <Router>
       <div className="App">
