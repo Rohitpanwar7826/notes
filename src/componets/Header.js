@@ -15,7 +15,7 @@ export default function Header() {
                         }}>
                             Notes
                         </NavLink>
-                        <NavLink to="/about" className="items inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4 p-1 rounded-xl" style={({isActive})=>{
+                        <NavLink to="about" className="items inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4 p-1 rounded-xl" style={({isActive})=>{
                             return {backgroundColor: isActive ? 'white' : ''}
                         }}>
                             About
