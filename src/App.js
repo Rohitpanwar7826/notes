@@ -11,9 +11,9 @@ function App() {
     <Router>
       <div className="App">
         < Header />
-        <Routes>
-          <Route path="/" element={<NodeList/>} />
-          <Route path="/about" element={<AboutPage/>} />
+        <Routes >
+          <Route path="notes/" element={<NodeList/>} />
+          <Route path="notes/about" element={<AboutPage/>} />
           <Route path="*" element={<PageNotFound/>} />
         </Routes>
         < Footer />
