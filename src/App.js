@@ -11,10 +11,10 @@ function App() {
     <Router>
       <div className="App">
         < Header />
-        <Routes basename='/notes/'>
-          <Route path="/" element={<NodeList/>} />
-          <Route path="/about" element={<AboutPage/>} />
-          <Route path="*" element={<PageNotFound/>} />
+        <Routes basename='/notes'>
+          <Route exact path="/" element={<NodeList/>} />
+          <Route exact path="/about" element={<AboutPage/>} />
+          {/* <Route path="*" element={<PageNotFound/>} /> */}
         </Routes>
         < Footer />
       </div>
