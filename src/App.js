@@ -8,12 +8,12 @@ import PageNotFound from './componets/PageNotFound/PageNotFound';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
-    <Router>
+    <Router basename='/notes/'>
       <div className="App">
         < Header />
-        <Routes basename='/notes/'>
+        <Routes >
           <Route exact path="/" element={<NodeList/>} />
-          <Route exact path="/about" element={<AboutPage/>} />
+          <Route exact path="about" element={<AboutPage/>} />
 
         </Routes>
         < Footer />
