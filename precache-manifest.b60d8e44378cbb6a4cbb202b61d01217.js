@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/notes/static/media/rohit.ee4d166b.jpeg"
   },
   {
-    "revision": "4673701bc266f9959d98206012ab8caf",
+    "revision": "bfbfbb6b948887988103e9159652ff3b",
     "url": "/notes/index.html"
   }
 ];
